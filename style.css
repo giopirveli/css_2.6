@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    padding: 96px;
+    max-width: 1600px;
+    background: #E4EBFF;
+    margin: 180px auto;
+}
+.mainBlank{
+    background-color: #ffff;
+max-width: 1280px;
+margin: 0 auto;
+padding: 96px 0;
+}
+header{
+text-align: center;
+}
+header span{
+    color: #6941C6;
+    font-size: 16px;
+}
+header h1{
+    color: #181D27;
+font-size: 40px;
+font-weight: 600;
+margin: 16px 0;
+}
+header p{
+    color: #535862;
+font-size: 20px;
+}
+/* header end*/
+/* main start*/
+main{
+margin: 96px 0;
+}
+.shereConteiner{
+    margin: inherit;
+    margin-left: 32px;
+}
+.shereBox h2{
+    color: #181D27;
+font-size: 30px;
+font-weight: 600;
+line-height: 38px;
+}
+.shereBox p{
+    color: #535862;
+font-size: 18px;
+}
+ul {
+    list-style: none;
+}
+.shereBox  li p,.shereBox  li img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.shereBox *{
+    margin-bottom: 14px;
+}
+.shereBox{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 550px;
+    margin-right: 100px;
+}
+.answerbox{
+    margin-right: unset;
+    margin-left: 100px;
+}
+.answerConteiner{
+    margin: inherit;
+}
